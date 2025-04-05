@@ -72,7 +72,6 @@ input_dict = {
 }
 
 if st.button('Predict'):
-    print('Predict button pressed')
     prediction = predict(input_dict)
     st.success(f'Predicted Health Insurance Cost: {prediction}')
 
